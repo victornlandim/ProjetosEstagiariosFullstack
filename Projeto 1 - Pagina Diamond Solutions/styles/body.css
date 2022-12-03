@@ -1,0 +1,25 @@
+#body {
+    border-left: none;
+    border-right: none;    
+}
+
+.body__container {
+    display: flex;
+}
+
+.body__container > .container {
+    padding: 60px;
+}
+
+.body__container h2 {
+    font-size: 42px;
+    color: #005489;
+    letter-spacing: 5px ;
+    padding-bottom: 20px;
+}
+
+.body__container p {
+    color: #005489;
+    font-size: 16px;
+    font-weight: 300;
+}

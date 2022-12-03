@@ -1,0 +1,35 @@
+#menu {
+    border: 1px solid #ccc;
+    border-left: none;
+    border-right: none;
+}
+
+.menu__list{
+    display: flex;
+    text-decoration: none;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: 0;
+}
+
+.menu__button {
+    margin: 20px;
+    padding: 15px;
+    border: white solid;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: #009CCC;  
+
+}
+
+.menu__button > a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+}
+
+.menu__container {
+    background-color: #009CCC;
+    
+}
